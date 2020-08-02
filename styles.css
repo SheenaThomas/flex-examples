@@ -1,0 +1,26 @@
+#div-1 {
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+}
+#div-2 {
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    align-self: center;
+}
+#div-3 {
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+    align-self: flex-end;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+#div-1,
+#div-2,
+#div-3:hover {
+    cursor: pointer;
+}
